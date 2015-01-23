@@ -1,0 +1,276 @@
+.menu-title{
+	font-size:18px;
+}
+.tb-weeks{
+	width:100%;
+}
+.tb-weeks td{
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+.tb-weeks a{
+	display:inline-block;
+	width:26px;
+	height:26px;
+	text-align: center;
+	vertical-align: middle;
+	padding: 2px 0; 
+	color:white;
+	cursor:pointer;
+}
+.tb-weeks a:hover{
+	color:inherit;
+}
+.tb-weeks a.today{
+	border-radius: 13px;
+	background: rgba(255,255,255,0.3);
+}
+#today .date{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#today .weather-img{
+	padding:25px 0;
+	margin: auto;
+}
+#today .temperature .degree{
+	font-size: 96px;
+}
+#today .vline{
+	width: 0;
+	height: 500px;
+	border-right: #ccc solid 1px;
+	position: absolute;
+	left: 50%;
+}
+#today .chart{
+	padding-top:100px;
+}
+#layout-playground{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position: relative;
+	border:#ccc solid 1px;
+}
+#layout-playground .layout{
+	position:absolute;
+	width:auto;
+	height:auto;
+}
+/*
+#layout-playground div.scrollableArea div{
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}*/
+#layout-elements div{
+	padding:10px 5px;
+	cursor:pointer;
+}
+#layout-elements i{
+	width:25px;
+}
+.ico-mode{
+	padding:5px 0 0 5px;
+	min-height:36px;
+	min-width:36px;
+	color:orange;
+	background: rgba(0,0,0,0.7);
+	border:orange solid 2px;
+	border-radius: 20px;
+}
+.ctl {
+	width: 80px;
+	text-align: center;
+}
+.ctl ul{
+	list-style: none;
+	padding: 5px;
+	margin: 0;
+	font-size: 11px;
+}
+#datalist{
+	min-height:100%;
+}
+table th, table td{
+	background: transparent;
+}
+.table-striped>tbody>tr:nth-child(odd){
+	background-color:rgba(250, 250, 250, 0.2);
+}
+.transparent-input{
+   background-color:rgba(250, 250, 250, 0.5);!important;
+}
+.navbar-inverse .navbar-nav>.active>a{
+	border:0;
+}
+.navbar-default.navbar-expanded, .navbar-inverse.navbar-expanded {
+	margin-bottom: 0;
+	background: rgba(0,0,0,0.5);
+}
+#main-menu, #scroll-down-btn{
+	z-index:2500;
+}
+.btn{
+	border-radius:4px;
+}
+.btn-sm{padding: 7px 10px;}
+header .intro-content{ width:inherit; max-width:970px; }
+#legendDiv ul { list-style: none; }
+#legendDiv li { display: inline-block; margin: 20px; }
+#legendDiv span{ display: inline-block; width:20px; height:20px; margin-right: 10px; }
+.nav>li.active>a, .nav>li.active>a:hover, .nav>li.active>a:focus{
+	background:rgba(255,255,255,0.3);
+	color:white;
+}
+.nav>li>a, .news a {
+	color:white;
+}
+#news, #traffics{
+	margin-top: 20px;
+	position: relative;
+    height: 450px; /* Or whatever you want (eg. 400px) */
+    overflow: hidden;
+}
+.news dd{
+	margin-top: 10px;
+}
+.news dt{
+	margin-top: 20px;
+}
+#sec_selt{
+	background: rgba(0,0,0,0.5);
+}
+section {
+	position: relative;
+}
+section .scroll-down {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
+section .scroll-down .btn {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: normal;
+    color: #fff;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+section .scroll-down .btn:hover {
+    border-color: rgba(255,255,255,.5);
+    outline: 0;
+    color: rgba(255,255,255,.5);
+}
+#weatherReport{
+	max-width: 320px;
+	margin:30px auto;
+	height: 300px;
+}
+.weatherFeed{
+	position: relative;
+	margin-top: 30px;
+}
+.weatherItem{
+	position: relative;
+	height:200px;
+}
+.weatherCity{
+	font-size: 3em;
+	text-align: center;
+	width: 100%;
+	padding-top:150px;
+	position:relative;
+	cursor: pointer;
+}
+.weatherCity i{
+	font-size: 0.3em;
+}
+.weatherCity ul{
+	position:absolute;
+	list-style: none;
+	font-size: 0.3em;
+	background:rgba(0,0,0,0.6);
+	padding: 0;
+	margin:0;
+}
+.weatherCity ul li{
+	padding:5px;
+	width:73px;
+	float: left;
+	cursor: pointer;
+}
+.weatherTemp{
+	font-size: 5.5em;
+	position:absolute;
+	right:0;
+	top:10px;
+}
+.weatherForecast{
+	margin-top:20px;
+}
+.weatherForecastItem{
+	float: left;
+	width: 20%;
+	background-position: top center;
+}
+.weatherForecastDay{
+	padding-top: 30px;
+	text-align: center;
+}
+.weatherDesc, .weatherRange, .weatherWind, .weatherLink, .weatherForecastDate, .weatherForecastText, .weatherForecastRange{
+	display:none;
+}
+.modal-content {
+	background:rgba(0,0,0,0.8);
+	color:#fff;
+}
+.modal-vertical-centered {
+  transform: translate(0, 50%) !important;
+  -ms-transform: translate(0, 50%) !important; /* IE 9 */
+  -webkit-transform: translate(0, 50%) !important; /* Safari and Chrome */
+}
+.close{
+	text-shadow:none;
+	color:#fff;
+	opacity: 1;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+	border-top: 0;
+}
+.crestron{
+	width:32px;
+	height:32px;
+	background: url(../images/crestron.jpg) no-repeat;
+	background-size:100%
+}
+#crestron-modal .modal-dialog {
+  width: 100%;
+  height: 600px;
+  padding: 0;
+  top:0;
+}
+
+#crestron-modal .modal-content {
+  height: 600px;
+  border-radius: 0;
+}
+#crestron-modal .modal-body{
+	height: 540px;
+}
